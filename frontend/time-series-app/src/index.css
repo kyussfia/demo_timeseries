@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc; /* This adds a border around the table */
+}
+
+th, td {
+  border: 1px solid #ccc; /* This adds a border to table header cells and table data cells */
+  padding: 8px; /* Add padding to cells for better spacing */
+  text-align: left; /* Align text to the left within cells */
+}
