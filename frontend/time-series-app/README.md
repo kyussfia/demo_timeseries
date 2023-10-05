@@ -23,3 +23,10 @@ Runs all tests.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.
+
+## Windows
+On windows also this needed me:
+```
+set NODE_OPTIONS=--openssl-legacy-provider && npm start
+```
+[Details](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported)
